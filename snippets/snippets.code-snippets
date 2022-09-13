@@ -1,11 +1,11 @@
 {
+  // * React Native
   "Basic React Native Component": {
     "prefix": "rnbc",
     "body": [
-      "import React from 'react';",
       "import { View } from 'react-native';",
       "",
-      "import { styles } from './styles';",
+      "import styles from './styles';",
       "",
       "export function ${TM_DIRECTORY/.*[\\\\\\/](.*)$/$1/}() {",
       "  return (",
@@ -22,7 +22,7 @@
     "body": [
       "import { StyleSheet } from 'react-native';",
       "",
-      "export const styles = StyleSheet.create({",
+      "export default StyleSheet.create({",
       "  container: {}",
       "});"
     ],
@@ -31,7 +31,6 @@
   "React Native Styled Component": {
     "prefix": "rnsc",
     "body": [
-      "import React from 'react';",
       "import { Container } from './styles';",
       "",
       "export function ${TM_DIRECTORY/.*[\\\\\\/](.*)$/$1/}() {",
@@ -69,10 +68,9 @@
     ],
     "description": "Create the path to color theme props"
   },
-  "Native Base Componente": {
+  "Native Base Component": {
     "prefix": "nbc",
     "body": [
-      "import React from 'react';",
       "import { VStack } from 'native-base';",
       "",
       "export function ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}() {",
@@ -85,4 +83,28 @@
     ],
     "description": "Create Native Base Component"
   },
+  // * React
+  "React Base Component": {
+    "prefix": "rbc",
+    "body": [
+      "export default function ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}() {",
+      " return (",
+      "   < className='container'>",
+      "   </ div>",
+      ");",
+    ],
+    "description": "Create a React Base Component"
+  },
+  // * Next
+  "Next Server Props": {
+    "prefix": "ngssp",
+    "body": [
+      "export async function getServerSideProps(context) {",
+      " return {",
+      "   props: {},",
+      " }",
+      "}",
+    ],
+    "description": "Create getServerSideProps Next function"
+  }
 }

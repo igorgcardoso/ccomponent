@@ -1,23 +1,23 @@
 {
-    "name": "rcomponent",
-    "displayName": "R Component",
-    "description": "Be productive by building React Native components quickly.",
-    "publisher": "rodrigorgtic",
+    "name": "ccomponent",
+    "displayName": "React/React Native Components Component",
+    "description": "Be productive by building React/React Native components quickly.",
+    "publisher": "igorgcardoso",
     "galleryBanner": {
         "color": "#232323",
         "theme": "dark"
     },
     "author": {
-        "name": "Rodrigo Gonçalves Santana",
-        "email": "rodrigo.rgtic@gmail.com"
+        "name": "Igor Cardoso",
+        "email": "igorgcardoso7@gmail.com"
     },
     "license": "MIT",
-    "version": "5.0.0",
+    "version": "1.1.0",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/rodrigorgtic/rcomponent.git"
+        "url": "git+https://github.com/igorgcardoso/ccomponent.git"
     },
-    "homepage": "https://github.com/rodrigorgtic/rcomponent/blob/main/README.md",
+    "homepage": "https://github.com/igorgcardoso/ccomponent/blob/main/README.md",
     "keywords": [
         "vscode",
         "react",
