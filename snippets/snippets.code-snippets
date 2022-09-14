@@ -68,12 +68,13 @@
     ],
     "description": "Create the path to color theme props"
   },
+  // * NativeBase
   "Native Base Component": {
     "prefix": "nbc",
     "body": [
       "import { VStack } from 'native-base';",
       "",
-      "export function ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}() {",
+      "export default function ${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/}() {",
       "  return (",
       "    <VStack>",
       "",
@@ -82,6 +83,18 @@
       "}"
     ],
     "description": "Create Native Base Component"
+  },
+  "Native Base Theme": {
+    "prefix": "nbt",
+    "body": [
+      "import { extendTheme } from 'native-base';",
+      "",
+      "export default extendTheme({",
+      " colors: {",
+      "   primary: {}",
+      "   secondary: {}",
+    ],
+    "description": "Create Native Base Theme Extension"
   },
   // * React
   "React Base Component": {

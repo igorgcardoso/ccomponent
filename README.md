@@ -46,6 +46,7 @@ List of available Snippets. Or **⇥** means the `TAB` key.
 | `rnsctc →` | Get the path to **color theme props**                         |
 | `rnsctf →` | Get the path to **fonts theme props**                         |
 |    `nbc →` | Create **Native Base** Component                              |
+|    `nbt →` | Create **Native Base** Theme extension                        |
 |    `rbc →` | Create **React** Component                                    |
 |  `ngssp →` | Create **Next GetSererSideProps** Function                    |
 
