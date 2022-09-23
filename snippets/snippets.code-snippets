@@ -122,12 +122,12 @@
       "}"
     ],
     "description": "Create a React Base Component with Tailwind"
-  }
+  },
   // * Next
   "Next Server Props": {
     "prefix": "ngssp",
     "body": [
-      "export async function getServerSideProps(context) {",
+      "export async function getServerSideProps(ctx) {",
       "  return {",
       "    props: {},",
       "  }",
