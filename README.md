@@ -48,6 +48,7 @@ List of available Snippets. Or **⇥** means the `TAB` key.
 |    `nbc →` | Create **Native Base** Component                              |
 |    `nbt →` | Create **Native Base** Theme extension                        |
 |    `rbc →` | Create **React** Component                                    |
+|   `rbct →` | Create **React** Component with tailwind                      |
 |  `ngssp →` | Create **Next GetSererSideProps** Function                    |
 
 

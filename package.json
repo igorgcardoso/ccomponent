@@ -4,7 +4,7 @@
     "description": "Be productive by building React/React Native components quickly.",
     "publisher": "igorgcardoso",
     "scripts": {
-        "package": "vsce package"
+        "package": "npx vsce package"
     },
     "galleryBanner": {
         "color": "#232323",
@@ -15,7 +15,7 @@
         "email": "igorgcardoso7@gmail.com"
     },
     "license": "MIT",
-    "version": "1.2.3",
+    "version": "1.3.0",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/igorgcardoso/ccomponent.git"
